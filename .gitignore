@@ -1,0 +1,26 @@
+# IDE
+.idea/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# 日志
+logs/
+*.log
+
+# 敏感配置（含 API Key / 数据库密码，禁止上传）
+config.ini
+
+# 本地模型文件（单文件超 100MB，GitHub 无法托管，需自行下载）
+rag_qa/models/
+rag_qa/nlp_bert_document-segmentation_chinese-base/
+rag_qa/core/bert_results/
+
+# 系统文件
+.DS_Store
+Thumbs.db
